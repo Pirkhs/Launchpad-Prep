@@ -5,8 +5,7 @@ import './styles/App.css';
 import './styles/Header.css';
 import './styles/Objects.css';
 import './styles/ObjectCard.css';
-
-
+import './styles/Error.css';
 
 function App() {
   return (

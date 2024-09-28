@@ -5,7 +5,6 @@ import Error from "./Error"
 
 export default function ObjectCard({id}) {
 
-    const [isError, setIsErro] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
     const [object, setObject] = useState({})
 
@@ -28,7 +27,7 @@ export default function ObjectCard({id}) {
         <div className="object-card">
             <p> {object.title} </p>
             <p> Id: {id}</p>
-            { object.primaryImageSmall ? <img className="object-image" src={object.primaryImageSmall} alt={object.title}/> : <Error text="Image Unavailable"/>}
+            { object.primaryImageSmall ? <img className="object-image" src={object.primaryImageSmall} alt={object.title}/> : <Error text=" ⚠️ Image Unavailable"/>}
         </div>
     )
 }
