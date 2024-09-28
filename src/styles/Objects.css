@@ -1,0 +1,7 @@
+.objects {
+    margin: 2rem, 2rem, auto, 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: right;
+    flex-wrap: wrap;
+}
